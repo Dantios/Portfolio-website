@@ -491,10 +491,7 @@ width	100%;
 
 
 
-.timeline-box{
-	width: 80%;
-	padding: 150px 0px 0px 0px;
-}
+ 
 
 .timeline-text{
     height: 20%;
@@ -1260,7 +1257,7 @@ display: flex;
 /** Projects Label Style **/
 .mytabs label{
     color: white;
-    padding: 25px;
+    padding: 10px;
     font-weight: bold;
     height: 7%;
     position: relative;
@@ -1270,7 +1267,6 @@ display: flex;
     box-shadow: 0 2px rgb(0 0 0 / 20%);
     color: #808080;
     opacity: 0.8;
-    
 }
 /**Graphics Projects Label **/
 .mytabs label[for="tabproj1"]{
@@ -1326,6 +1322,20 @@ display: flex;
 	width	40%;
 	display: 	flex;	
 }
+.picandvid1{
+    position: relative;
+    height: 50%;
+    width: 90%;
+    display: flex;
+    left: 30%;
+}
+
+.mytabs .tab .picandvid1{
+	    position: relative;
+    width: 100%;
+    margin-right: 15px;
+    height: 285px;
+}
 .mytabs .tab img{
     position: relative;
     width: 50%;
@@ -1352,14 +1362,14 @@ display: flex;
 }
 
 /** Label Checked Styles **/
-.mytabs input[type="radio"]:checked + label{    
+.mytabs input[type="radio"]:checked + label{
 	margin-bottom: 0;
-    padding-bottom: 5px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+	/* padding-bottom: 5px; */
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
 	z-index: 	-2;
-    opacity: 	1;
-    top: 7.5%; 
+	opacity: 	1;
+	top: 7.5%;
 }
 
 /** Graphics/animation Projects labels **/
@@ -1384,7 +1394,7 @@ display: flex;
 	background: #25232f;
 }
  
-
+ 
 /**																COLLAB SECTION 								**/
 
 
@@ -1693,11 +1703,12 @@ input:nth-of-type(5):checked ~ .carousel-sub {
 }
 	.timeline-box{
 		left: 15%;
-		height: 75%;
+		height: 100%;
 		/* margin-right: 	20%; */
-		justify-content: center;
+		width: 80%;
+		padding: 150px 0px 0px 0px;
 		align-items: center;
-		align-content: center;
+		 
 		/* text-align: center; */
 		/* position: relative; */
 	}
