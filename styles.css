@@ -6,8 +6,14 @@
 }
 
 .timeline-box {
+<<<<<<< HEAD
     width: 100%;
     height: 100%;
+=======
+    height: 100%;
+    width: 100%;
+    top: 40px;
+>>>>>>> 451e8c82a41c780bc98e55fcdbaa9ce328777b3e
 }
 
 body{
@@ -503,7 +509,12 @@ width	100%;
     color: #000000;
     font-family: "Arial Black", Gadget, sans-serif;
     text-align: center;
+<<<<<<< HEAD
     padding: 20px 20px 170px 20px;
+=======
+    top: 10%;
+    padding: 20px 20px 150px 20px;
+>>>>>>> 451e8c82a41c780bc98e55fcdbaa9ce328777b3e
 }
 
 .skillset-wrapper-text h1 {
@@ -542,7 +553,6 @@ width	100%;
 	text-align: justify;
 	/* margin: 10px auto; */
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(0 255 2) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
-	padding: ;
 	align-content: ;
 	margin-left: 60px;
 }
@@ -1252,7 +1262,7 @@ display: flex;
 	z-index: 	1;
 	justify-content: center;
 	align-items: center;
-	    font-size: 12px;
+	font-size: 12px;
 	/* margin-left: 5%; */
 }
 
@@ -1709,6 +1719,7 @@ input:nth-of-type(5):checked ~ .carousel-sub {
 		height: 80%;
 }
 	.timeline-box{
+<<<<<<< HEAD
 		left: 15%;
 		height: 50%;
 		 
@@ -1717,6 +1728,10 @@ input:nth-of-type(5):checked ~ .carousel-sub {
 		align-items: center;
 		/* text-align: center; */
 		/* position: relative; */
+=======
+		height: 100%;
+		align-items: center;
+>>>>>>> 451e8c82a41c780bc98e55fcdbaa9ce328777b3e
 	}
 	.timeline-text{
 		padding: 20px 20px 70px 20px;
