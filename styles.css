@@ -1048,7 +1048,7 @@ div#slider {
 	flex-wrap: wrap;
 	width: 100%;
 	height: 100%;
-	padding: -25px;
+	padding: 55px;
 	position: relative;
 	z-index: 1;
 	justify-content: center;
